@@ -1,6 +1,5 @@
 # Ali Mansouri - Personal Portfolio 👨‍💻
 
-![Portfolio Preview](https://www.ali-mansouri.com/images/og-image.jpg)
 
 ## 🌟 About
 Professional portfolio website showcasing my front-end development projects and skills. Built with pure HTML, CSS, and JavaScript.
