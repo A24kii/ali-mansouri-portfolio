@@ -1,0 +1,10 @@
+/* TEAM */
+Developer: Ali Mansouri
+Site: https://www.ali-mansouri.com
+Location: Kuwait
+Education: Kuwait University - Mathematics Education
+
+/* SITE */
+Last update: 2024/01/20
+Standards: HTML5, CSS3, JavaScript
+Components: Progressive Web App
