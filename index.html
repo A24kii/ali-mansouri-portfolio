@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Mansouri</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="splash-screen">
+        <div class="splash-logo">
+            <h1 id="splash-logo">M</h1>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <!-- المحتوى الرئيسي -->
+    <div class="main-content">
+        <header>
+            <nav class="navbar">
+                <h1 onmouseout="outTitle()" onmouseover="addTitle()" id="logo">M</h1>
+                
+                <!-- زر القائمة للموبايل -->
+                <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+                
+                <ul id="nav-menu">
+                    <li><a href="#about" onclick="closeMenu()">about</a></li>
+                    <li><a href="#skills" onclick="closeMenu()">skills</a></li>
+                    <li><a href="#projects" onclick="closeMenu()">projects</a></li>
+                    <li><a href="#contact" onclick="closeMenu()">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="main1" id="about">
+            <div class="main">
+                <div class="titlename">
+                    <div id="circle1"></div>
+                    <div id="circle2"></div>
+                    <div id="circle3"></div>
+                    <h4>Hello, my name is</h4>
+                    <h1>Ali Mansouri</h1>
+                    <h3>A Mathematics Educator with a Passion for Web Design.</h3>
+                </div>
+                <div class="aboutme">
+                    <p id="texts"></p>
+                    <br>
+                    <p id="texts1"></p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="dgre" id="skills">
+            <div class="contdgre">
+                <div class="expr">
+                    <h2>Skills & Expertise</h2>
+                    <p><ion-icon  id="contact-icon" name="logo-html5"></ion-icon>Html 80%<div id="barexpr1"></div></p>
+                    <p><ion-icon  id="contact-icon" name="logo-css3"></ion-icon>Css 67%<div id="barexpr2"></div></p>
+                    <p><ion-icon  id="contact-icon" name="logo-javascript"></ion-icon>Javascript 40%<div id="barexpr3"></div></p>
+                    <p><ion-icon  id="contact-icon" name="logo-python"></ion-icon>Python 50%<div id="barexpr4"></div></p>
+                </div>
+                <div class="stude">
+                    <ul>
+                        <li>Education</li>
+                        <p class="edu">Bachelor of Science in Mathematics Education <br>
+                            <a href="https://www.ku.edu.kw">Kuwait University - College of Education</a> <br>
+                           (2020 - 2025) <br>
+                           GPA = 3.32</p>
+                        <a href="https://maps.app.goo.gl/ihBQ2NEV8mSbnM386?g_st=ipc"><img width="250px" src="/icon/kuwait university.png" alt="Kuwait University location"></a>
+                        
+                        <li>Languages & Technologies</li>
+                        <div class="lang">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JAVASCRIPT</li>
+                            <li>PYTHON</li> 
+                            <li>Git & GitHub</li>
+                            <li>Responsive Design</li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="projcet" id="projects">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projcetcont">
+                <div class="card">
+                    <img src="icon/project1.png" width="230px" alt="Project 1">
+                    <h2>180 Day Mission</h2>
+                    <p>A comprehensive productivity tracking system designed to monitor professional progress over 180 working days. Features dark mode, bilingual support (Arabic/English), and motivational milestones to keep users engaged in their professional development journey.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">LocalStorage</span>
+                    </div>
+                    <div class="liveweb">
+                        <a href="https://100-days-challenge11.netlify.app" target="_blank">View Live</a>
+                        <a href="https://github.com/A24kii/180-days-challenge" target="_blank">GitHub</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="icon/love-game.png" width="230px" alt="Do You Love Me Game">
+                    <h2>Do You Love Me? - Interactive Game</h2>
+                    <p>A playful and interactive web game where users try to click the "No" button that cleverly moves away when hovered over. Built with vanilla JavaScript, it features dynamic button movement and humorous responses that create an engaging user experience.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">CSS Animations</span>
+                    </div>
+                    <div class="liveweb">
+                        <a href="https://press-the-button2.netlify.app" target="_blank">View Live</a>
+                        <a href="https://github.com/A24kii/project" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="contact" id="contact">
+            <div class="contact-container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's work together</h3>
+                        <p>I'm always interested in new opportunities and creative projects.</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <span><ion-icon id="contact-icon" name="mail"></ion-icon>Email:</span>
+                                <a href="mailto:ali24kii@outlook.com">ali24kii@outlook.com</a>
+                            </div>
+                            <div class="contact-item">
+                                <span><ion-icon  id="contact-icon" name="pin"></ion-icon>Location:</span>
+                                <span>Kuwait</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a title="GitHub" href="https://github.com/A24kii"><ion-icon name="logo-github"></ion-icon></a>
+                        <a title="linkedin" href="https://kw.linkedin.com/in/ali-mansouri-395a17391?trk=people-guest_people_search-card"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a title="X" href="https://x.com/a276ii"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a title="tiktok" href="https://www.tiktok.com/@a276iii"><ion-icon name="logo-tiktok"></ion-icon></a>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2025 Ali Mansouri. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

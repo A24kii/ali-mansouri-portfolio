@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemaps
+Sitemap: https://www.ali-mansouri.com/sitemap.xml
+Sitemap: https://www.ali-mansouri.com/sitemap-ar.xml
+
+# Crawl delay
+Crawl-delay: 1
