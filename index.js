@@ -1,8 +1,6 @@
 const trigger = document.getElementById('logo');
-const texts = document.getElementById('texts');
-const paragraph = "I am a Front-End Developer with an unexpected foundation: a background in Mathematics education. This unique combination is my greatest strength. Teaching Math taught me how to deconstruct complex problems into logical, step-by-step solutions—a skill I now apply to writing clean, efficient code and creating intuitive user experiences. ";
 const texts1 = document.getElementById('texts1');
-const paragraph1 = "My passion lies in transforming creative ideas into functional, responsive, and accessible websites. I focus on the front-end, building the visual and interactive parts that users see and love, with a sharp eye for detail and a commitment to modern best practices.";
+const paragraph1 = "Front-End Developer leveraging Mathematics training to solve complex problems through clean code and intuitive design. Transforming creative ideas into responsive, user-focused websites.";
 const fullName = 'MANSOURI';
 
 let timeoutIds = [];
@@ -40,18 +38,7 @@ function initSplashScreen() {
 }
 
 function showme() {
-    // إعادة تعيين العرض
-    texts.textContent = '';
-    texts1.textContent = '';
-    
     // إظهار النص حرفًا بحرف
-    for (let i = 0; i < paragraph.length; i++) {
-        const timeoutId = setTimeout(() => {
-            texts.textContent += paragraph[i];
-        }, i * 20);
-        timeoutIds1.push(timeoutId);
-    }
-    
     for (let i = 0; i < paragraph1.length; i++) {
         const timeoutId = setTimeout(() => {
             texts1.textContent += paragraph1[i];
