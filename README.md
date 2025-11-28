@@ -5,8 +5,6 @@ Professional portfolio website showcasing my front-end development projects and 
 
 ## 🚀 Features
 - Responsive design for all devices
-- Dark/Light mode toggle
-- Bilingual support (English/Arabic)
 - Interactive projects showcase
 - SEO optimized
 
