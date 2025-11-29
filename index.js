@@ -135,6 +135,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 
+
 // بدء تشغيل الموقع عند تحميل الصفحة
 window.addEventListener('load', function() {
     setTimeout(initSplashScreen, 500);

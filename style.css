@@ -100,6 +100,8 @@ header{
     text-transform: capitalize;
 }
 
+
+
 #logo{
     padding: 0 10px;
     text-align: center;
@@ -319,16 +321,16 @@ hr{
 
 
 #barexpr1{
-    background: linear-gradient(to right , var(--ornge)80%,rgba(92, 163, 249, 0.069) 20% );
+    background: linear-gradient(to right , var(--ornge)88%,rgba(92, 163, 249, 0.069) 20% );
     
 }
 
 #barexpr2{
-    background: linear-gradient(to right , var(--ornge)67%,rgba(92, 163, 249, 0.069) 20% );
+    background: linear-gradient(to right , var(--ornge)75%,rgba(92, 163, 249, 0.069) 20% );
 }
 
 #barexpr3{
-    background: linear-gradient(to right , var(--ornge)40%,rgba(92, 163, 249, 0.069) 20% );
+    background: linear-gradient(to right , var(--ornge)65%,rgba(92, 163, 249, 0.069) 20% );
 }
 #barexpr4{
     background: linear-gradient(to right , var(--ornge)50%,rgba(92, 163, 249, 0.069) 20% );
