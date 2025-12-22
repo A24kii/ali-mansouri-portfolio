@@ -17,6 +17,7 @@ body{
 }
 
 
+
 :root{
     --blue-darkest: #DBEAFE;
     --blue-rich: #4b94ee;
@@ -431,7 +432,7 @@ hr{
     text-align: center;
     color: var(--blue-darkest);
     width: 300px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
     border: 1px solid var(--border-light);
     opacity: 0;
     transform: translateY(20px);
